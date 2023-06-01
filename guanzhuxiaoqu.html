@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>无忧找房-我关注的小区</title>
+    <link rel="stylesheet" href="./css/guanzhuxiaoqu.css">
+</head>
+
+<body>
+    <nav>
+        <span>
+            <a href="#">
+                <img src="./imga/logo.jpg" alt="">
+            </a>
+        </span>
+        <div class="nav">
+            <a href="#">
+                <img src="./imga/my.jpg" alt="">
+            </a>
+            <a href="#">
+                <img src="./imga/xiazai.jpg" alt="">
+            </a>
+        </div>
+    </nav>
+<div class="Concern-area">
+ <p><span>首页</span> > 我的 > 关注的小区</p>
+</div>
+<div class="splendor">
+<ul>
+    <li>
+        <div>
+         <img src="./img/img1.png" alt="">
+        </div>
+        <div>
+            <h2>辉煌国际</h2>
+            <p>昌平区-回龙观</p>
+            <p>2007年建成<a>37050元/平</a></p>
+            <p>板塔结构</p>
+        </div>
+    </li>
+    <li>
+        <div>
+            <img src="./img/imga.png" alt="">
+           </div>
+           <div>
+               <h2>万寿园</h2>
+               <p>昌平区-回龙观</p>
+               <p>2007年建成<a>56447元/平</a></p>
+               <p>板塔结构</p>
+           </div>
+    </li>
+    <li>
+        <div>
+            <img src="./img/imgb.png" alt="">
+           </div>
+           <div>
+               <h2>红莲南里5号</h2>
+               <p>昌平区-回龙观</p>
+               <p>2007年建成<a>89776元/平</a></p>
+               <p>板塔结构</p>
+           </div>
+    </li>
+    <li>
+        <div>
+            <img src="./img/img4.png" alt="">
+           </div>
+           <div>
+               <h2>万寿西街16号</h2>
+               <p>昌平区-回龙观</p>
+               <p>2007年建成<a>90778元/平</a></p>
+               <p>板塔结构</p>
+           </div>
+    </li>
+</ul>
+
+</div>
+</div>
+
+<footer>
+    <div class="top">
+        <p>
+            北京找房无忧 > <span>首页</span></p>
+    </div>
+    <div class="content">
+        <ul>
+            <li>
+                <img src="./imga/apple.png" alt="">
+                <div class="left">
+                    <p>iPhone</p>
+                    <p>客户端</p>
+                </div>
+            </li>
+            <li>
+                <img src="./imga/android.png" alt="">
+                <div class="left">
+                    <p>Android</p>
+                    <p>客户端</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="text">
+        <p>北京找房无忧房地产经纪公司</p>
+        <p>网络经营许可证京ICP备20160812号</p>
+    </div>
+</footer>
+</body>
+
+</html>
+<script>
+
+
+    function setRem() {
+    var ul_w = 375;
+    var clientwidth = document.documentElement.clientWidth || document.body.clientWidth;
+    var html = document.getElementsByTagName("html")[0];
+    // console.log(html);
+    clientwidth = clientwidth < 320 ? 320 : clientwidth;
+    html.style.fontSize = (clientwidth / ul_w) * 10 + 'px';
+    }
+    window.onresize = setRem;
+    window.onload = setRem;
+   
+</script>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>找房无忧-二手房列表页</title>
+    <link rel="stylesheet" href="./css/ershouliebiao.css" />
+  </head>
+
+  <body>
+    <nav>
+      <span>
+          <a href="#">
+              <img src="./imga/logo.jpg" alt="">
+          </a>
+      </span>
+      <div class="nav">
+          <a href="#">
+              <img src="./imga/my.jpg" alt="">
+          </a>
+          <a href="#">
+              <img src="./imga/xiazai.jpg" alt="">
+          </a>
+      </div>
+  </nav>
+
+
+    <div class="search-box">
+      <input type="text" placeholder="请输入小区名或商圈名称" />
+      <span>|</span>
+      <img src="./img/search_03.png" alt="" />
+    </div>
+
+    <div class="area">
+      <ul class="my-list">
+        <li>
+          区域
+          <span></span>
+        </li>
+        <li>
+          价格
+          <span></span>
+        </li>
+        <li>
+          房型
+          <span></span>
+        </li>
+        <li>
+          更多
+          <span></span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="Xibianmen">
+      <ul>
+        <li>
+          <div><img src="./img/imgc.png" alt="" /></div>
+          <div>
+            <h2>西便门外大街2室1厅89平</h2>
+            <br />
+            <p>南北 高楼层/6层</p>
+            <p>签约价格:13244元/平 <span>1105万</span></p>
+            <p>签约日期:2015年11月10日</p>
+          </div>
+        </li>
+        <li>
+          <div><img src="./img/imgd.png" alt="" /></div>
+          <div>
+            <h2>金桥国际 1室1厅 63平</h2>
+            <br />
+            <p>南北 高楼层/6层</p>
+            <p>签约价格:13244元/平 <span>905万</span></p>
+            <p>签约日期:2015年11月10日</p>
+          </div>
+        </li>
+        <li>
+          <div><img src="./img/imge.png" alt="" /></div>
+          <div>
+            <h2>花涧溪二期 2室2厅 90平</h2>
+            <br />
+            <p>南北 高楼层/6层</p>
+            <p>签约价格:13244元/平 <span>1322万</span></p>
+            <p>签约日期:2015年11月10日</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="kongbai"></div>
+
+    <footer>
+      <div class="top">
+          <p>
+              北京找房无忧 > <span>首页</span></p>
+      </div>
+      <div class="content">
+          <ul>
+              <li>
+                  <img src="./imga/apple.png" alt="">
+                  <div class="left">
+                      <p>iPhone</p>
+                      <p>客户端</p>
+                  </div>
+              </li>
+              <li>
+                  <img src="./imga/android.png" alt="">
+                  <div class="left">
+                      <p>Android</p>
+                      <p>客户端</p>
+                  </div>
+              </li>
+          </ul>
+      </div>
+      <div class="text">
+          <p>北京找房无忧房地产经纪公司</p>
+          <p>网络经营许可证京ICP备20160812号</p>
+      </div>
+  </footer>
+  </body>
+</html>
+<script>
+  function setRem() {
+    var ul_w = 375;
+    var clientwidth =
+      document.documentElement.clientWidth || document.body.clientWidth;
+    var html = document.getElementsByTagName("html")[0];
+    // console.log(html);
+    clientwidth = clientwidth < 320 ? 320 : clientwidth;
+    html.style.fontSize = (clientwidth / ul_w) * 10 + "px";
+  }
+  window.onresize = setRem;
+  window.onload = setRem;
+</script>
