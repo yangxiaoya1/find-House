@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/fangyuanxinxi.css">
+    <script src=""></script>
+</head>
+
+<body>
+    <div class="box">
+        <!-- 头部 -->
+        <nav>
+            <span>
+                <a href="#">
+                    <img src="../images/logo.jpg" alt="">
+                </a>
+            </span>
+            <div class="nav2">
+                <a href="#">
+                    <img src="../images/my.jpg" alt="">
+                </a>
+                <a href="#">
+                    <img src="../images/xiazai.jpg" alt="">
+                </a>
+            </div>
+        </nav>
+
+        <!-- 导航栏部分 -->
+        <div class="nav">
+            <ul>
+                <li class="shou">
+                    <a href="#">首页</a>
+                </li>
+                <li>
+                    >
+                    <a href="#">北京租房</a>
+                </li>
+                <li>
+                    >
+                    <a href="#">房源信息</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 第一部分 -->
+        <div class="content1">
+            <div class="img">
+                <img src="../images/keting.png" alt="">
+                <div class="fen">分享</div>
+            </div>
+            <div class="wenzi">
+                <h2>天鹅湾小区精装两居，满五唯一，业主换房急售</h2>
+                <p>关注</p>
+            </div>
+        </div>
+
+        <!-- 第二部分 -->
+        <div class="content2">
+            <ul>
+                <li>
+                    <p>租金</p>
+                    <p class="huang">2300元/月</p>
+                </li>
+                <div class="line"></div>
+                <li>
+                    <p>房型</p>
+                    <p class="huang">2室1厅</p>
+                </li>
+                <div class="line"></div>
+                <li>
+                    <p>面积</p>
+                    <p class="huang">204平米</p>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 第三部分 -->
+        <div class="content3">
+            <ul>
+                <li>
+                    楼层：高楼/17层
+                    <span>朝向：南北</span>
+                </li>
+                <li>
+                    装修：精装
+                    <span>供暖：集体供暖</span>
+                </li>
+                <li>
+                    年代：2007年
+                    <span>板楼</span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 第四部分 -->
+        <div class="content4">
+            <h3>经纪人房评</h3>
+            <p>
+                地理位置：晶都国际处于酒仙桥中心地带，毗邻北京三大商圈，紧邻丽都商圈，隔四环与望京商圈相望，西南紧挨燕莎商圈，地理位置优越。周边配套：颐堤港商业中心，兆维大厦...
+            </p>
+        </div>
+
+        <!-- 第五部分 -->
+        <div class="content5">
+            <h3>看房客户记录</h3>
+            <p>
+                近一个月新增0位看房客户，共50位
+            </p>
+        </div>
+
+
+        <!-- 第六部分 -->
+        <div class="content6">
+            <h3>位置及周边</h3>
+            <div class="dizhi">
+                <h4>地址：[黄村]时代龙和</h4>
+                <img src="../images/ditu2.png" alt="">
+            </div>
+        </div>
+
+
+        <!-- 第七部分 -->
+        <div class="content7">
+            <h3>小区成交历史</h3>
+            <p>
+                3室2厅，146平米，<span>5000元</span>
+            </p>
+            <p>
+                签约日期：2015-02-26
+            </p>
+        </div>
+
+
+        <!-- 第八部分 -->
+        <div class="content8">
+            <div class="tupian">
+                <img src="../images/man.png" alt="">
+            </div>
+            <div class="zi">
+                <p class="zhangsan">张三</p>
+                <p class="zhuan">4001581855转0008</p>
+            </div>
+            <span class="zhidian">致电</span>
+            <span class="duanxin">短信</span>
+        </div>
+
+
+        <!-- 底部 -->
+        <footer>
+            <div class="top">
+                <p>
+                    北京找房无忧 > <span>首页</span></p>
+            </div>
+            <div class="content">
+                <ul>
+                    <li>
+                        <img src="../images/apple.png" alt="">
+                        <div class="left">
+                            <p>iPhone</p>
+                            <p>客户端</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../images/android.png" alt="">
+                        <div class="left">
+                            <p>Android</p>
+                            <p>客户端</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="text">
+                <p>北京找房无忧房地产经纪公司</p>
+                <p>网络经营许可证京ICP备20160812号</p>
+            </div>
+    </div>
+</body>
+
+</html>
+<script>
+    function setRem() {
+        var ul_w = 375;
+        var clientwidth = document.documentElement.clientWidth || document.body.clientWidth;
+        var html = document.getElementsByTagName("html")[0];
+        // console.log(html);
+        clientwidth = clientwidth < 320 ? 320 : clientwidth;
+        html.style.fontSize = (clientwidth / ul_w) * 10 + 'px';
+    }
+    window.onresize = setRem;
+    window.onload = setRem;
+</script>
