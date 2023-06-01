@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+}
+body{
+    min-width: 32rem;
+}
+nav {
+  width: 100%;
+  background-color: #ff8a00;
+  height: 5rem;
+  position: relative;
+
+}
+
+nav>span {
+  position: absolute;
+  top: .7rem;
+  left: 5rem;
+}
+
+span img {
+  width: 9rem;
+}
+
+.nav {
+  position: absolute;
+  top: .8rem;
+  right: 4rem;
+
+}
+
+.nav>a {
+  margin-left: 1.5rem;
+
+}
+
+.nav>a>img {
+  width: 2.5rem;
+}
+.Rental-listing-page{
+    width: 100%;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 1.4rem;
+    margin-left: 2rem;
+}
+.Rental-listing-page span{
+    font-weight: 600;
+}
+.search-box{
+    width: 100%;
+    height: 7.3rem;
+    background-color: #F5F5F5;
+    border-bottom: .1rem solid rgb(207, 205, 205);
+    border-top: .1rem solid rgb(207, 205, 205);
+    position: relative;
+}
+.search-box input{
+    width: 33.3rem;
+    height: 4rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.search-box span{
+    font-size: 1.6rem;
+    position: absolute;
+    right: 8rem;
+    top: 2.5rem;
+}
+.search-box img{
+    width: 2.1rem;
+    height: 2.3rem;
+    z-index: 2;
+    position: absolute;
+    right: 4rem;
+    top: 2.5rem;
+}
+.area{
+    width: 100%;
+    height: 4.5rem;
+    /* border-top: .1rem solid rgb(202, 201, 201); */
+    border-bottom: .1rem solid rgb(202, 201, 201);
+}
+.area ul{
+    height: 4.5rem;
+    list-style: none;
+    display: flex;
+}
+.area li{
+    flex: 1;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    line-height: 4.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #666666;
+    position: relative;
+}
+.area li span{
+    border-top: 5px solid #ccc;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid transparent;
+    position: absolute;
+    top: 1.7rem;
+    left: 7.5rem;
+}
+
+.Xibianmen{
+    width: 100%;
+    background-color: #F5F5F5;
+  }
+ul{
+    list-style: none;
+  }
+  .Xibianmen ul li{
+    width: 85%;
+    height: 15.5rem;
+    border-bottom: .1rem solid #FDA53C;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  .Xibianmen ul li div:nth-of-type(1){
+    flex: 1;
+  }
+  .Xibianmen ul li div:nth-of-type(2){
+    flex: 2;
+  }
+  .Xibianmen ul li:nth-of-type(5){
+    border-bottom: none;
+  }
+  .Xibianmen img{
+    width: 9.5rem;
+    height: 9.5rem;
+  }
+  .Xibianmen h2{
+    font-size: 1.6rem;
+  }
+  .Xibianmen p{
+    line-height: 2.5rem;
+    font-size: 1.4rem;
+  }
+  .Xibianmen p:nth-of-type(3){
+    width: 7.1rem;
+    height: 2.1rem;
+    border: 1px solid green;
+    text-align: center;
+    line-height: 2.1rem;
+    color: green;
+    float: left;
+  }
+  .Xibianmen p:nth-of-type(4){
+    float: right;
+    color: coral;
+    font-weight: 600;
+  }
+  .Xibianmen ul li:nth-of-type(3) p:nth-of-type(3){
+    width: 8.4rem;
+    height: 2.4rem;
+  }
+  .kongbai{
+    width: 100%;
+    height: 2rem;
+    background-color: #F5F5F5;
+  }
+  footer {
+    width: 100%;
+    height: 20rem;
+    background-color: #2f3130;
+}
+
+.top {
+    width: 100%;
+
+    height: 5rem;
+
+    border-bottom: 1px solid #ccc;
+
+}
+
+.top>p {
+    font-size: 1.3rem;
+    margin-left: 2rem;
+    line-height: 5rem;
+    color: #888786;
+    font-weight: 500;
+}
+
+.top>span {
+    font-size: 1.3rem;
+    color: #888786;
+    font-weight: 500;
+}
+
+.content {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.content>ul {
+    list-style: none;
+    display: flex;
+
+}
+
+.content>ul>li {
+    flex: 1;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    position: relative;
+}
+
+.content>ul>li>img {
+    width: 2rem;
+    position: absolute;
+    top: .2rem;
+    left: .1rem;
+}
+
+.left {
+    display: inline-block;
+    margin-left: 4rem;
+    padding-top: .1rem;
+
+}
+
+.left>p {
+    color: #8e8f8f;
+    font-size: 1.2rem;
+}
+
+.text {
+    margin-top: 3rem;
+    width: 100%;
+    text-align: center;
+}
+
+.text>p {
+    color: #85888a;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 500;
+}

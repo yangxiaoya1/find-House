@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>找房无忧-首页</title>
+    <link rel="stylesheet" href="./css/shouye.css" />
+    
+  </head>
+
+  <body>
+
+    <nav>
+      <span>
+          <a href="#">
+              <img src="./imga/logo.jpg" alt="">
+          </a>
+      </span>
+      <div class="nav">
+          <a href="#">
+              <img src="./imga/my.jpg" alt="">
+          </a>
+          <a href="#">
+              <img src="./imga/xiazai.jpg" alt="">
+          </a>
+      </div>
+  </nav>
+
+    <div class="immobilization">
+    <div>
+      <img id="ad" src="./img/close.png" alt="">
+    <img src="./img/download.png" alt="">
+    </div>
+    <div>
+     <h2>找房无忧</h2>
+     <p>市场行情，一手掌握！</p>
+    </div>
+    <div>
+    免费下载
+    </div>
+    </div>
+
+    <div class="box">
+      <span></span>
+      <input type="text" placeholder="输入小区或商圈名开始找房咯！" />
+    </div>
+    <div class="second-hand">
+      <ul>
+        <li><a href="#">二手房</a></li>
+        <li><a href="#">新房</a></li>
+        <li><a href="#">租房</a></li>
+        <li><a href="#">卖房</a></li>
+      </ul>
+    </div>
+    <div class="tu">
+      <img src="./img/banner2.png" alt="" />
+    </div>
+    <div class="Hot-housing">
+      <h2>热门房源</h2>
+      <span>Hot house</span>
+    </div>
+    <div class="Ministry">
+      <ul>
+        <li>
+          <div class="room"><img src="./img/img1.jpg" alt="" /></div>
+          <div class="attic">
+            <h2>文化部中间层 一层带阁楼</h2>
+            <p>2室1厅96㎡南北<span>1150万</span></p>
+            <br>
+            <p>红庙北里<span>14268元/平</span></p>
+            <div class="school"><div>学区房</div><div>独家</div></div>
+        </div>
+        </li>
+        <li>
+            <div class="room"><img src="./img/img2.png" alt="" /></div>
+          <div class="attic">
+            <h2>光大水墨 精装复式 稀缺</h2>
+            <p>2室1厅96㎡南北<span>280万</span></p>
+            <br>
+            <p>光大水墨<span>14268元/平</span></p>
+            <div class="school"><div>学区房</div><div>独家</div></div>
+        </div>
+        </li>
+        <li>
+            <div class="room"><img src="./img/img3.png" alt="" /></div>
+          <div class="attic">
+            <h2>南北通透两居 精装修 无</h2>
+            <p>2室1厅96㎡南北<span>320万</span></p>
+            <br>
+            <p>北京新天地<span>14268元/平</span></p>
+            <div class="school"><div>学区房</div><div>独家</div></div>
+        </div>
+        </li>
+      </ul>
+    </div>
+    <div class="huise"></div>
+    <div class="focus-Pictures">
+    <div class="blogroll">
+        <span>热门关注</span>
+        <span>友情链接</span>
+    </div>
+    <div class="Second-hand">
+        <div>
+            <ul>
+                <li><a href="#">北京二手房</a> 
+                <li><a href="#">北京二手房价</a></li>
+                <li><a href="#">海淀日租房</a></li>
+                <li><a href="#">朝阳新房</a></li></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#">北京找房无忧</a> 
+                <li><a href="#">青年家园</a></li>
+                <li><a href="#">免税房源</a></li>
+                <li><a href="#">满五年唯一免税</a></li></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <footer>
+      <div class="top">
+          <p>
+              北京找房无忧 > <span>首页</span></p>
+      </div>
+      <div class="content">
+          <ul>
+              <li>
+                  <img src="./imga/apple.png" alt="">
+                  <div class="left">
+                      <p>iPhone</p>
+                      <p>客户端</p>
+                  </div>
+              </li>
+              <li>
+                  <img src="./imga/android.png" alt="">
+                  <div class="left">
+                      <p>Android</p>
+                      <p>客户端</p>
+                  </div>
+              </li>
+          </ul>
+      </div>
+      <div class="text">
+          <p>北京找房无忧房地产经纪公司</p>
+          <p>网络经营许可证京ICP备20160812号</p>
+      </div>
+  </footer>
+  </body>
+</html><script src="./js/shouye.js"></script>
+<script>
+     function setRem() {
+     var ul_w = 375;
+     var clientwidth = document.documentElement.clientWidth || document.body.clientWidth;
+     var html = document.getElementsByTagName("html")[0];
+     // console.log(html);
+     clientwidth = clientwidth < 320 ? 320 : clientwidth;
+     html.style.fontSize = (clientwidth / ul_w) * 10 + 'px';
+     }
+     window.onresize = setRem;
+     window.onload = setRem;
+</script>
