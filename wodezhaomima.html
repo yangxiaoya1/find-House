@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的-找回密码</title>
+    <link rel="stylesheet" href="./css/wodezhaomima.css">
+    <script src="./js/setRem.js"></script>
+</head>
+
+<body>
+    <div class="box">
+        <nav>
+            <span>
+                <a href="#">
+                    <img src="./imgs/logo.jpg" alt="">
+                </a>
+            </span>
+            <div class="nav">
+                <a href="./wode.html">
+                    <img src="./imgs/my.jpg" alt="">
+                </a>
+                <a href="#">
+                    <img src="./imgs/xiazai.jpg" alt="">
+                </a>
+            </div>
+        </nav>
+        <div class="list">
+            <p>
+                <strong>首页</strong> > <span>找回密码</span>
+            </p>
+        </div>
+        <!-- 主体 -->
+        <section>
+            <form action="">
+                <ul>
+                    <li class="mima">
+                        <input type="text" placeholder="请输入手机号码">
+                        <a href="#" id="code">发送验证码</a>
+                    </li>
+                    <li class="mima">
+                        <input type="password" placeholder="请输入短信中的验证码">
+                    </li>
+                    <li class="mima">
+                        <input type="password" placeholder="请输入新密码">
+                    </li>
+                    <li class="mima">
+                        <input type="password" placeholder="请输入确认密码">
+                    </li>
+                </ul>
+            </form>
+        </section>
+        <!-- 最后 -->
+        <footer>
+            <a href="#">立即注册</a>
+        </footer>
+    </div>
+</body>
+
+</html>
+<script>
+    var code = document.getElementById("code");
+    code.onclick = function () {
+        var num = 60;
+        auto();   //    计时器
+        var timer = setInterval(auto, 1000);
+        function auto() {
+            num--;
+            if (num <= 0) {
+                clearInterval(timer);
+                code.innerHTML = '获取验证码';
+            } else {
+                code.innerHTML = '（' + num + '秒）重发';
+
+            }
+        }
+
+    }
+</script>
